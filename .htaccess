@@ -1,0 +1,4 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /~user2/PHP/booker/
+RewriteRule !\.(js|gif|png|jpg|css)$ index.php

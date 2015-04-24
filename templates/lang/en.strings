@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<ISTRINGTABLE LANG="en">
+    <ISTRING>
+        <KEY>HEADER</KEY>
+        <VALUE>Sign in to your account</VALUE>
+    </ISTRING>
+	<ISTRING>
+        <KEY>NAME</KEY>
+        <VALUE>E-mail</VALUE>
+    </ISTRING>
+	<ISTRING>
+        <KEY>PASS</KEY>
+        <VALUE>Password</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SIGNINBUTTON</KEY>
+        <VALUE>Sign in</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SAVE</KEY>
+        <VALUE>Remember me</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>1</KEY>
+        <VALUE>January</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>2</KEY>
+        <VALUE>February</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>3</KEY>
+        <VALUE>March</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>4</KEY>
+        <VALUE>April</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>5</KEY>
+        <VALUE>May</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>6</KEY>
+        <VALUE>June</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>7</KEY>
+        <VALUE>July</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>8</KEY>
+        <VALUE>August</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>9</KEY>
+        <VALUE>September</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>10</KEY>
+        <VALUE>October</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>11</KEY>
+        <VALUE>November</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>12</KEY>
+        <VALUE>December</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_1</KEY>
+        <VALUE>Monday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_2</KEY>
+        <VALUE>Tuesday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_3</KEY>
+        <VALUE>Wednesday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_4</KEY>
+        <VALUE>Thursday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_5</KEY>
+        <VALUE>Friday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_6</KEY>
+        <VALUE>Saturday</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>HEAD_0</KEY>
+        <VALUE>Sunday</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>SUNDAY</KEY>
+	    <VALUE>Sunday</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>MONDAY</KEY>
+	    <VALUE>Monday</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>12H</KEY>
+	    <VALUE>12 hour</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>24H</KEY>
+	    <VALUE>24 hour</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>DETAILS</KEY>
+        <VALUE>Details</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>WHEN</KEY>
+        <VALUE>When</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>NOT</KEY>
+        <VALUE>Notes</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>WHOIS</KEY>
+        <VALUE>Who</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SUBMIT</KEY>
+        <VALUE>Submitted</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>APPLY</KEY>
+	    <VALUE>Apply to all occurrences?</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>UPDATE</KEY>
+	    <VALUE>Update</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>DELETE</KEY>
+	    <VALUE>Delete</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>EMPLOYEELISTT</KEY>
+        <VALUE>Employee list</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>BOOKIT</KEY>
+        <VALUE>Book It</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>WELCOME</KEY>
+        <VALUE>Welcome</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>BOARDROOM</KEY>
+        <VALUE>Boardroom</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SELECTEED</KEY>
+        <VALUE>selected</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>BOOKERBOARDROOM</KEY>
+	    <VALUE>Boardroom Booker</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>BOOKEDFOR</KEY>
+	    <VALUE>Booked for</VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>MEETENGDAY</KEY>
+	    <VALUE>I would like to book this meeting</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>PATH3</KEY>
+        <VALUE>Specify what the time and end of the
+        meeting (This will be what people see on the calendar.)</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>PATH4</KEY>
+        <VALUE>Enter the specifics for the meeting.
+        (This will be what people see when they
+         click on an event link.)</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>PATH5</KEY>
+        <VALUE>Is this going to be a recurring event?</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>PATH6</KEY>
+        <VALUE>If it is recurring, specify weekly,
+         bi-weekly or monthly.</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>INFO</KEY>
+        <VALUE>
+        If weekly or bi-weekly, specify the number
+        of weeks for it to keep recurring. If
+        monthly, specify the number of months.
+        (If you choose "bi-weekly" and put in an odd
+        number of weeks, the computer will round down.)
+        </VALUE>
+    </ISTRING>
+    <ISTRING>
+	    <KEY>DURATION</KEY>
+	    <VALUE>duration(max 4 weeks)</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>CLOSEWIN</KEY>
+        <VALUE>Close</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SAVECHENG</KEY>
+        <VALUE>Save changes</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>EDITEMPL</KEY>
+        <VALUE>Edit</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>EMPLTITLE</KEY>
+        <VALUE>Employees</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>BACKTOCAL</KEY>
+        <VALUE>Back</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>NAMEEMPLO</KEY>
+        <VALUE>Name</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>EMAILEMPLO</KEY>
+        <VALUE>E-mail</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>PASSEMPLO</KEY>
+        <VALUE>Password</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>SAVEEMPLO</KEY>
+        <VALUE>Save</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>NAMEEMPLOY</KEY>
+        <VALUE>Name</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>DELEMPLOY</KEY>
+        <VALUE>Delete</VALUE>
+    </ISTRING>
+    <ISTRING>
+        <KEY>EDITEMPLOY</KEY>
+        <VALUE>Edit</VALUE>
+    </ISTRING>
+</ISTRINGTABLE>
+

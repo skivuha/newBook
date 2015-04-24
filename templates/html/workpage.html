@@ -1,0 +1,115 @@
+<div class="row well">
+<div class="col-xs-4">
+    <span>%LANG_WELCOME%, {{NAME_EMPL}}.</span>
+    %LANG_BOARDROOM% #{{ROOM}} %LANG_SELECTEED%.
+    <form action="/~user2/PHP/booker/Calendar/logout/" method="post">
+        <input type="submit" class="btn btn-default btn-xs" value="Exit" name="exit"></form>
+</div>
+    <div class="col-xs-4">
+        {{ROOMLIST}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-9">
+        {{CONTENT}}
+          </div>
+           <div class="col-xs-3">
+               <div class="row">
+                   <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">
+                                %LANG_BOOKERBOARDROOM%
+                            </h4>
+                        </div>
+                        <form method="post" id="modal">
+                        <div class="modal-body">
+                            <p>1. %LANG_BOOKEDFOR%:</p>
+                            <p><select
+                                    name="employeename">
+                                {{USER}}</select></p>
+                            <p>2. %LANG_MEETENGDAY%</p>
+                            <p>
+                                <select id="dropdownmonth"
+                                        name="selectedmonth"></select>
+                                <select name="selectedday"
+                                        id="dropdownday"></select>
+                                <select name="selectedyear"
+                                        id="dropdownyear"></select>
+                            </p>
+                            <p id="wrongdata">3. %LANG_PATH3%
+                                <span id="wrongdataerror"> &nbsp;</span>
+                            </p>
+                                <p>
+                                    <select name="starthour"
+                                            id="dropdownhourstart"></select>
+                                    <select name="startmin" >
+                                        <option>00</option>
+                                        <option>30</option>
+                                    </select>
+                                    <select id="dropdowntypestart">
+                                        <option>AM</option>
+                                        <option>PM</option></select>
+                                </p>
+                            <p>
+                                <select name="endhour"
+                                        id="dropdownhourend"></select>
+                                <select name="endmin">
+                                    <option>00</option>
+                                    <option>30</option></select>
+                                <select id="dropdowntypeend">
+                                    <option>AM</option>
+                                    <option>PM</option></select>
+                            </p>
+                            <p>4. %LANG_PATH4%
+                            </p>
+                            <textarea name="desc" cols="78"></textarea>
+                            <p>5. %LANG_PATH5%</p>
+                            <input type="radio" value="false" name="recuringon"
+                                   id="recuringoff" checked/>no<br>
+                            <input type="radio" name="recuringon"
+                                    value="true" id="recuringon"/>yes
+                                <div id="recurring">
+                            <p>
+                                6. %LANG_PATH6%
+                            </p>
+                            <input id="weekly" type="radio" name="recuring"
+                                      value="weekly"/>weekly<br>
+                            <input id="bi-weekly" type="radio" name="recuring"
+                                      value="bi-weekly"/>bi-weekly<br>
+                            <input id="monthly" type="radio" name="recuring"
+                                      value="monthly"/>monthly
+                            <p><br> %LANG_INFO%
+
+                            </p>
+                            <p><input name="duration" id="duration" type="number" min="1"
+                                      max="4"
+                                      value="1">%LANG_DURATION%</p>
+                                    </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default"
+                                    data-dismiss="modal">%LANG_CLOSEWIN%
+                            </button>
+                            <button type="button"
+                                    class="btn btn-default" id="savemodal"
+                                    form="modal">%LANG_SAVECHENG%</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+               <div class="row">
+        {{ADMIN}}
+                   <button type="button" class="btn btn-default"
+                           data-toggle="modal" data-target="#myModal">
+                       %LANG_BOOKIT%
+                   </button>
+    </div></div>
+</div>

@@ -1,0 +1,71 @@
+table{
+    min-width: 770px !important;
+    max-width: 1280px !important;
+}
+table tr td{
+    min-width: 163px;
+    height: 80px;
+}
+table tr th{
+    text-align: center;
+}
+td div{
+    overflow-y: auto;
+    height: 90px;
+}
+textarea{
+    resize: none;
+    overflow-y: auto;
+}
+#recurring{
+    display: none;
+}
+#employees{
+    text-align: center;
+
+}
+#employees td{
+    height: 30px;
+}
+#formempl input{
+    margin: 0 35px;
+}
+.warningForm{
+    color: red;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.warningErr{
+    color: red;
+    font-weight: bold;
+    margin-left: 70px;
+}
+#secondWindowH2{
+    text-align: center;
+    background-color: #e3e3e3;
+}
+#timeinterval{
+    margin-left: 35px;
+}
+#notesdetails{
+    vertical-align: top;
+}
+#start{
+    display: none;
+}
+#employ{
+    display: none;
+}
+
+#warningupdate{
+    color: red;
+    font-weight: bold;
+}
+#roleC{
+    color: #cccccc;
+}
+.successForm{
+    color: green;
+    font-weight: bold;
+    margin-left: 60px;
+}

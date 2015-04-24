@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="/~user2/PHP/booker/templates/js/jquery-1.11.2.min.js"></script>
+    <script src="/~user2/PHP/booker/templates/js/bootstrap.min.js"></script>
+    <script src="/~user2/PHP/booker/templates/js/script.js"></script>
+    <script src="/~user2/PHP/booker/templates/js/ajax.js"></script>
+    <script src="/~user2/PHP/booker/templates/js/function.js"></script>
+    <link rel="stylesheet" href="/~user2/PHP/booker/templates/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/~user2/PHP/booker/templates/css/style.css">
+    <title>{{TITLE}}</title>
+</head>
+<body>
+<div class="container well">
+    <form method="post" id="details">
+    <div class="row">
+
+        <div class="col-xs-12">
+            <h2 id="secondWindowH2">%LANG_DETAILS%</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            %LANG_WHEN%:<span id="timeinterval"><input type="time" step="1800"
+                                        name="starttime"
+                        value="{{STARTTIME}}" {{ACTIVE}} />
+             -
+            <input type="time" step="1800" name="endtime"
+                   value="{{ENDTIME}}"  {{ACTIVE}} /></span>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            <span id="notesdetails">%LANG_NOT%:</span> <textarea
+                name="description"
+             cols="30" {{ACTIVE}}>{{NOTES}} </textarea>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            %LANG_WHOIS%: <span><select name="employee" {{ACTIVE}}>{{WHO}}
+            </select></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            %LANG_SUBMIT%: <span>{{SUBMITTED}}</span>
+            <input name="start" value="{{START}}" id="start"/>
+            <input name="empl" value="{{EMPLOYEEID}}" id="employ"/>
+        </div>
+    </div>
+    <br>
+    <div class="row" {{RECURRENCE}}>
+        <div class="col-xs-12" >
+            <input type="checkbox" value="{{RECURID}}"
+                   name="recurrences" {{ACTIVE}}/>
+            <span>%LANG_APPLY%</span>
+        </div>
+    </div>
+<span id="warningupdate">&nbsp;</span>
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <button class="form-control" type="button" form="details"
+                    value="{{ID}}" name="update"
+                    id="updatebuttn" {{ACTIVE}}>%LANG_UPDATE%</button>
+        </div>
+        <div class="col-xs-6">
+            <button class="form-control" type="button" form="details"
+                    value="{{ID}}" name="delete" id="deletebuttn" {{ACTIVE}}>
+                %LANG_DELETE%</button>
+        </div>
+    </div>
+</form>
+</div>
+</body>
+</html>

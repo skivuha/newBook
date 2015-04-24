@@ -1,0 +1,39 @@
+<h2>%LANG_HEADER%</h2>
+<hr>
+<form class="simple-form col-md-3 well"
+      name="auth" method="POST">
+    <br />
+    <div class="row">
+        <div>
+            <label>&nbsp;
+                <span class="text-danger">{{ERRORLOGIN}}</span></label>
+            <input type="text" class="form-control"
+                   placeholder="%LANG_NAME%" name="name" />
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <label>&nbsp;
+                <span class="text-danger" >{{ERRORPASS}}</span></label>
+            <input type="password" placeholder="%LANG_PASS%"
+                   class="form-control" name="password" />
+        </div>
+    </div>
+    <span class="text-danger">{{ERRORSTATUS}}&nbsp</span>
+    <br />
+    <br />
+    <div class="row">
+        <div>
+            <button class="btn btn-default btn-block" name="signin">
+                %LANG_SIGNINBUTTON%</button>
+        </div>
+    </div>
+    <div class="row col-sm-offset-3">
+        <div id="rememberMe">
+            <div class="checkbox"><label>
+                <input type="checkbox" name="remember">
+                %LANG_SAVE%</label>
+            </div>
+        </div>
+    </div>
+</form>
